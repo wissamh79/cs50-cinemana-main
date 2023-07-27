@@ -17,8 +17,7 @@ app.register_blueprint(account_router, url_prefix="")
 app.register_blueprint(movies_router, url_prefix="")
 app.register_blueprint(shows_router, url_prefix="")
 app.register_blueprint(admin_router, url_prefix="/admin")
-app.register_blueprint(admin_router, url_prefix="/ddddd")
-app.register_blueprint(admin_router, url_prefix="/ddddd")
+
 
 
 if __name__ == "__main__":
